@@ -48,36 +48,50 @@ nav {
 
 .fondocolor {
     color: white;
-    align-content: center;
-    justify-items: end;
     background-color: #2E2550;
-    padding: 9vw;
+    padding: 10vw;
 
 }
 
 .fondocolor h1 {
-    font-size: 75px;
+    font-size: 90px;
+    font-weight: 600;
 }
 
 .fondocolor p {
-    font-size: 18px;
-    margin: 1% 0%;
+    font-size: 20px;
+    margin: 10% 0%;
+}
+
+.botonesinicio {
+    display: flex;
+    gap: 10px;
+    margin-top: 6%;
+
 }
 
 .botonpage {
     background: white;
     border: none;
     color: #F41486;
+    padding: 2% 4%;
+    border-radius: 3px;
+}
+
+.boton2 {
+    border-color: white;
+    background: #2E2550;
+    color: white;
+    border-radius: 3px;
+    padding: 2% 4%;
 }
 
 .fondoimagen {
-    margin: 0%;
-    align-items: center;
+    align-content: center;
 }
 
 .fondoimagen img {
     width: 100%;
-    justify-content: start;
 }
 
 .seccion2 {
@@ -94,17 +108,18 @@ nav {
     margin-top: 1%;
     display: flex;
     align-items: center;
+    justify-items: space-evenly;
 }
 
 .seccion2 img {
-    width: 90%;
+    width: 50%;
 }
 
 
 .texto h3 {
     color: #C3538D;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 100;
     margin-bottom: 3%;
 }
 
@@ -142,7 +157,7 @@ nav {
     display: flex;
     justify-content: space-around;
     gap: 40px;
-    margin: 0% 11%;
+    margin: 0% 0%;
 }
 
 sup {
@@ -163,9 +178,7 @@ sup {
 
 .carta1 i {
     line-height: 2rem;
-}
-.parcarta1{
-    size: 10px;
+    text-align: start;
 }
 
 .botoncarta1 {
@@ -177,6 +190,14 @@ sup {
     border-radius: 5px;
 }
 
+.botoncarta2 {
+    border: none;
+    color: white;
+    background: #2E2550;
+    padding: 5% 15%;
+    font-size: 15px;
+    border-radius: 5px;
+}
 .rosa {
     color: #F41486;
 
@@ -219,4 +240,5 @@ footer {
 
 .footericono i {
     font-size: 20px;
+    align-content: center;
 }
