@@ -39,20 +39,15 @@ nav {
 
 .seccion1 {
     display: flex;
-    justify-content: space-between;
     width: 100%;
     height: 95vh;
-    background-image: url(../asset/image/hojasFondo.jpg);
-
+    background-color: #2E2550;
+    align-items: center;
 }
 
 .fondocolor {
     color: white;
-    background-color: #2E2550;
-    padding: 15vw;
-    display: column;
-    align-content: center;
-    justify-content: end;
+    padding: 18vw;
 }
 
 .fondocolor h1 {
@@ -108,32 +103,34 @@ nav {
 }
 
 .fondoimagen {
-    align-content: center;
-}
-
-.fondoimagen img {
+    background-image: url(../asset/image/hojasFondo.jpg);
     width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: left;
 }
 
 .seccion2 {
-    margin: 5%;
+    margin: 3%;
 }
 
 .seccion2 h2 {
     color: #F41486;
     font-size: 60px;
     text-align: center;
+    margin-bottom: 3%;
 }
 
 .horizontal {
-    margin-top: 1%;
     display: flex;
-    align-items: center;
-    justify-items: space-evenly;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 0% 0%;
+    box-sizing: border-box;
 }
 
 .seccion2 img {
-    width: 50%;
+    width: 60%;
 }
 
 
@@ -182,7 +179,7 @@ nav {
     display: flex;
     justify-content: space-around;
     gap: 40px;
-    margin: 0% 0%;
+    margin: 0% 5%;
 }
 
 sup {
@@ -191,23 +188,23 @@ sup {
 }
 
 .carta1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: white;
     border-radius: 5px;
-
+    text-align: center;
 }
 
 .carta1 img {
+    margin-top: 4%;
     width: 20%;
 }
 
 .carta1 i {
     line-height: 2rem;
-    align-content: start;
 }
+.a{
+    color: #F41486;
+}
+
 
 .botoncarta1 {
     border: none;
@@ -217,7 +214,9 @@ sup {
     font-size: 15px;
     border-radius: 5px;
 }
-
+.b{
+    color: #282240;
+}
 .botoncarta2 {
     border: none;
     color: white;
@@ -235,7 +234,7 @@ sup {
 .gris {
     background-color: #F5F5F5;
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 0px;
     text-align: center;
     margin-top: 6%;
     margin-bottom: 6%;
@@ -245,6 +244,18 @@ sup {
     font-size: 50px;
     font-weight: lighter;
 }
+ .carta1 .parcarta1{
+    color: black;
+    font-size: 16px;
+}
+.gris1 {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: 6%;
+}
+
 
 footer {
     background-color: white;
